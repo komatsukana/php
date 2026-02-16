@@ -1,0 +1,60 @@
+body {
+    background: #f7f9ff;
+    font-family: "Meiryo", sans-serif;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background:linear-gradient(to right,#d8bfd8,#deb887 );
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card:first-child {
+    border: 3px solid gold;
+}
+
+.rank {
+    font-weight: bold;
+    color: gold;
+}
+.title {
+    margin: 10px 0;
+}
+.thumb {
+    width: 100%;
+    border-radius: 10px;
+}
+.info {
+    color: #555;
+    font-size: 14px;
+}
+.first {
+    border: 3px solid gold;
+    background: linear-gradient(135deg, #fff8dc, #ffe4b5);
+    animation: sparkle 2s infinite;
+}
+@keyframes sparkle {
+    0% {
+        box-shadow: 0 0 5px gold;
+    }
+
+    50% {
+        box-shadow: 0 0 20px gold;
+    }
+
+    100% {
+        box-shadow: 0 0 5px gold;
+    }
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}

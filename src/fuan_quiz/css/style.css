@@ -1,0 +1,33 @@
+body {
+    font-family: "Hiragino Sans";
+    text-align: center;
+    background: #fdf6fb;
+}
+
+h1 {
+    color: #ff6fa9;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+}
+
+button {
+    background: #ff9fcf;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+td {
+    border: 2px solid red;
+}
+
+.ok{
+    background-color: pink;
+}
+
+.ng{
+    background-color: aquamarine;
+}
